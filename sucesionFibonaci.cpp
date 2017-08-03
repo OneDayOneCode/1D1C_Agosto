@@ -1,11 +1,4 @@
 /*
- * sucecionFibonaci
- * Copyright (C) 2017 Marcos <jigoku_shujin@hotmail.com>
- *
- * Distributed under terms of the S/L license.
- */
-
-/*
  *  Sucesion fibonaci usando recursividad
  */
 
