@@ -10,7 +10,7 @@ public class Principal
     public static void main(String[] args)
     {
         Numero num = new Numero();
-        num.init();       
+        num.numerosEnEI();       
     }
 }
 
