@@ -9,7 +9,7 @@ int sucecion (int);
 
 int main()
 {
-    cout << sucecion (10);
+    cout << sucecion (10) << endl;
 }
 
 int sucecion(int n)
