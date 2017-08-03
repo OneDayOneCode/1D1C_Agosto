@@ -23,15 +23,12 @@ public class Numero
         this.numerosEIE = new NumerosIE();
     }
 
-    public void init()
+    public void numerosEnEI()
     {
        try
        {
             int numeroUsuario = this.datoUsuario();
             this.numerosEIE.numeroEnEyI(numeroUsuario);
-            
-            this.ordenAcendente(numeroUsuario);
-            this.ordenDescendente(numeroUsuario);
        }
 
        catch(ArrayIndexOutOfBoundsException e)
@@ -54,22 +51,6 @@ public class Numero
     {
         System.out.print("Escriba un digito númerico positivo:");
         return this.entrada.nextInt();
-    }
-
-    private void ordenAcendente(int numero)
-    {
-        StringBuffer str = new StringBuffer("Orden ascendete:");
-        for (int i = 1; i <= numero; i++) str.append(i);
-
-        System.out.println(str);
-    }
-
-    private void ordenDescendente(int numero)
-    {   
-        StringBuffer str = new StringBuffer("Orden decendente:");
-        for (int i = numero; i > 0; i--) str.append(i);
-        
-        System.out.println(str);
     }
 
     private class NumerosIE
