@@ -61,7 +61,7 @@ public class Calculadora implements Operaciones
             break;
 
             default:
-                   System.err.println("La operacion no recibio los numeros apropiados");
+                   System.err.println("Digito mal la operacion");
             break;
         }
         
