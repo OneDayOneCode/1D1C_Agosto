@@ -1,6 +1,6 @@
 package agosto;
 
-//Les traigo el método de ordenación mas ineficiente. Pero el mas sencillo de aprender. El método Burbuja.
+//Les traigo el método de ordenamiento mas ineficiente. Pero el mas sencillo de aprender. El método Burbuja.
 public class Ordenamiento 
 {	
 	public void burbuja(int[] A) 
