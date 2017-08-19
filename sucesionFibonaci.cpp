@@ -13,20 +13,20 @@ int main()
 }
 
 int sucecion(int n)
-{   
+{
     if (n == 1)
     {
         n = 0;
-    } 
+    }
 
     else if (n == 2)
     {
         n = 1;
     }
 
-    else 
+    else
     {
-        n =  sucecion (n - 1) + sucecion (n  - 2);
+        n = sucecion (n-1) + sucecion (n-2);
     }
 
     return n;

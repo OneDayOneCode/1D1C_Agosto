@@ -30,17 +30,17 @@ int main ()
 
     // Uso el getline para limpiar el buffer de entrada ...
     //  ... y evitar que se captura '\n'
-    cout << "Nombre:"; 
+    cout << "Nombre:";
     cin.getline(corredor->nombre, 30, '\n');
 
     cout << "Edad:";
     cin >> corredor->edad;
     cin.ignore(256, '\n');
 
-    cout << "Sexo:"; 
+    cout << "Sexo:";
     cin.getline(corredor->sexo, 10, '\n');
-    
-    cout << "Club:"; 
+
+    cout << "Club:";
     cin.getline(corredor->club, 30, '\n');
 
     if (corredor->edad>= 7 && corredor->edad <= 18)
@@ -67,6 +67,6 @@ int main ()
 
     // Se libera el bloque de memoria
     delete corredor;
-    
+
     return 0;
 }

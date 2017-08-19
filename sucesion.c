@@ -16,7 +16,7 @@ int sucesion(int n)
 
     else
     {
-        n += sucesion(n - 1);
+        n += sucesion(n-1);
     }
 
     return n;
